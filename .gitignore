@@ -32,7 +32,6 @@ local.properties
 *.hprof
 .cxx/
 *.keystore
-!debug.keystore
 .kotlin/
 
 # node.js
@@ -40,6 +39,12 @@ local.properties
 node_modules/
 npm-debug.log
 yarn-error.log
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
 
 # fastlane
 #
